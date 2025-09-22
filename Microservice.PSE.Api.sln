@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36511.14 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Microservice.PSE.Api", "Microservice.PSE.Api\Microservice.PSE.Api.csproj", "{A98B6CEB-5587-4AF3-8B76-C0B545E582B2}"
+EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "Microservice.PSE.DataBase", "Microservice.PSE.DataBase\Microservice.PSE.DataBase.sqlproj", "{4DDFD243-C9BE-4888-B5B1-B1DB1A268952}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A98B6CEB-5587-4AF3-8B76-C0B545E582B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A98B6CEB-5587-4AF3-8B76-C0B545E582B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A98B6CEB-5587-4AF3-8B76-C0B545E582B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A98B6CEB-5587-4AF3-8B76-C0B545E582B2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4DDFD243-C9BE-4888-B5B1-B1DB1A268952}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4DDFD243-C9BE-4888-B5B1-B1DB1A268952}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4DDFD243-C9BE-4888-B5B1-B1DB1A268952}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{4DDFD243-C9BE-4888-B5B1-B1DB1A268952}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4DDFD243-C9BE-4888-B5B1-B1DB1A268952}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4DDFD243-C9BE-4888-B5B1-B1DB1A268952}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {812EF349-7322-4707-A5F8-793A4637B0E9}
+	EndGlobalSection
+EndGlobal
